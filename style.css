@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 16px;
+    min-width: 1500px;
+}
+
+/* ----- Cabeçalho ----- */
+
+#container .frete{
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+
+.cabecalho{
+    background-image: url(images/background.png);
+    height: 400px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+}
+
+.cabecalho .logo{
+    display: flex;
+    font-size: 1.2em;
+    padding-top: 130px;
+}
+
+.cabecalho .logo h3{
+    padding-left: 10px;
+}
+
+.logo, .c-conteudo{
+    margin-left: 15%;
+}
+
+.c-conteudo{
+    margin-top: 40px;
+}
+
+.c-conteudo h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.c-conteudo h3{
+    line-height: 30px;
+    font-size: 1.3em;
+}
+
+/* ----- Conteúdo Principal ----- */
+
+.topo{
+    color: black;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.topo h2{
+    font-size: 2em;
+}
+
+.topo p{
+    font-size: 1.4em;
+}
+
+.jordan{
+    color: black;
+    width: 66%;
+    margin-left: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.jordan .cards .img{
+    width: 330px;
+    height: 150px;
+    background-color: #F3F7FF;
+    margin-bottom: 20px;
+}
+
+.jordan .cards .img img{
+    margin-left: 20%;
+}
+
+.jordan .cards h4{
+    margin-bottom: 10px;
+}
+
+.jordan .cards span{
+    color: #7CA2F4;
+    font-size: 15px;
+}
+
+.jordan .cards p{
+    margin-top: 15px;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+}
+
+
+
